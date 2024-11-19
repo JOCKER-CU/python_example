@@ -54,3 +54,12 @@ my_list = [1,1,1,1,2,2,3,3,3,3,4,4,4,4,5,5,5,5,5];
 my_set = set(my_list);
 
 print(my_set, 'After convert list to set'  );
+
+
+my_set = {1,2,3,4,5,6,7,8,9,0}
+
+print(my_set, 'Set from range'  );
+
+my_set = {i for i in range(10) if i % 2 == 0}
+
+print(my_set, 'Set comprehension'  );
